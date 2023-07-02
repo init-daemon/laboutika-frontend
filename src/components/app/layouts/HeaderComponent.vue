@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar :order="-1" color="grey-lighten-2" flat title="Application bar">
+    <v-app-bar :order="0" flat color="surface" title="Laboutika">
         <template v-slot:append>
         </template>
     </v-app-bar>

@@ -1,7 +1,7 @@
 <template>
     <v-layout class="rounded rounded-md">
-        <sidebar-app></sidebar-app>
-        <header-app></header-app>
+        <sidebar-component></sidebar-component>
+        <header-component></header-component>
         <v-main>
             <router-view></router-view>
         </v-main>
@@ -10,14 +10,14 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import SidebarApp from "@/components/app/layouts/SidebarApp.vue"
-import HeaderApp from "@/components/app/layouts/HeaderApp.vue"
+import SidebarComponent from "@/components/app/layouts/SidebarComponent.vue"
+import HeaderComponent from "@/components/app/layouts/HeaderComponent.vue"
 import { KyCrud } from "@/plugins/ky/KyCrud";
 
 export default defineComponent({
     components: {
-        SidebarApp,
-        HeaderApp
+        SidebarComponent,
+        HeaderComponent
     },
     data() {
         return {

@@ -1,5 +1,7 @@
 <template>
-    <v-navigation-drawer color="grey-darken-2" permanent></v-navigation-drawer>
+    <div>
+        Depot Article page
+    </div>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue';

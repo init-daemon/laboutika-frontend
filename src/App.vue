@@ -1,14 +1,14 @@
 <template>
-  <main-app></main-app>
+  <app-component></app-component>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import MainApp from '@/components/app/MainApp.vue';
+import AppComponent from '@/components/app/AppComponent.vue';
 
 @Options({
   components: {
-    MainApp,
+    AppComponent,
   },
   data() {
     return {
